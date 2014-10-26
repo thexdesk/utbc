@@ -1,0 +1,35 @@
+Users
+  Ratings
+  First Name
+  Last Name
+  Email
+  Student Number
+  Gender
+
+bin/rails g scaffold User first_name:text last_name:text email:text student_number:text gender:text
+
+Ratings
+  
+
+Tournaments
+  Events
+
+Events
+  Type
+    Singles
+    Doubles
+  Style
+    Elimination
+    Round-robin
+  Gender
+    Men
+    Female
+  Players
+  Matches
+
+Matches
+  Players
+  Location Name
+  Start time
+  Score
+
