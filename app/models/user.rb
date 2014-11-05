@@ -4,6 +4,5 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   has_many :events, through: :registrations
-  has_one :rating
-  has_one :rating_history, through: :rating
+  has_many :ratings
 end
