@@ -10,7 +10,7 @@ gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
@@ -41,8 +41,8 @@ gem 'spring', group: :development
 gem 'devise', '~> 3.4.0'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
-  gem 'haml-rails', '~> 0.5.0'
+  gem 'rspec-rails', '~> 3.0.2'
+  gem 'haml-rails', '~> 0.5.3'
   gem 'pry-byebug', '~> 2.0.0'
   gem 'factory_girl_rails', '~> 4.5.0'
 end
