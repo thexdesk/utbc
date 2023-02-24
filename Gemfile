@@ -38,7 +38,7 @@ gem 'spring', group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'devise', '~> 3.4.0'
+gem 'devise', '~> 4.7.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
