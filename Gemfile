@@ -41,7 +41,7 @@ gem 'spring', group: :development
 gem 'devise', '~> 3.4.0'
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'haml-rails', '~> 0.5.0'
   gem 'pry-byebug', '~> 2.0.0'
   gem 'factory_girl_rails', '~> 4.5.0'
